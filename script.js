@@ -52,15 +52,9 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      hundredwon: '100 won, Yi Sunsin, South Korea',
-      thousandwon: '1000 won, Yi Hwang, South Korea',
-      fivethousandwon: '5000 won, Yi I, South Korea',
-      tenthousandwon: '10000 won, Sejong the Great, South Korea',
-      fiftythousandwon: '50000 won, Sin Saimdang, South Korea',
-      onedollar: 'one dollar, George Washington, U.S.',
-      fivedollar: 'five dollar, Abraham Lincoln, U.S.',
-      tendollar: 'ten dollar, Alexander Hamilton, U.S.',
-      None: 'There is nothing.'
+      Cervus nippon hortulorum: 'South Korea, 대륙사슴',
+      Ursus thibetanus ussuricus: 'South Korea, 반달가슴곰',
+      Vulpes vulpes peculiosa: 'South Korea, 여우',
     };
 
     if (probability >= 75) {
