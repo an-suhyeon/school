@@ -1,1 +1,1 @@
-demo: https://an-suhyun.github.io/template/.
+demo: https://mva-313.github.io/school/
