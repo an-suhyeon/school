@@ -52,9 +52,9 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      Cervusnipponhortulorum: 'South Korea, 대륙사슴',
-      Ursusthibetanusussuricus: 'South Korea, 반달가슴곰',
-      Vulpesvulpespeculiosa: 'South Korea, 여우',
+      Cervusnipponhortulorum: 'deer',
+      Ursusthibetanusussuricus: 'bear',
+      Vulpesvulpespeculiosa: 'fox',
     };
 
     if (probability >= 75) {
