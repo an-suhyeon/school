@@ -52,9 +52,15 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      Cervusnipponhortulorum: 'deer',
-      Ursusthibetanusussuricus: 'bear',
-      Vulpesvulpespeculiosa: 'fox',
+      hundredwon: '100 won, Yi Sunsin, South Korea',
+      thousandwon: '1000 won, Yi Hwang, South Korea',
+      fivethousandwon: '5000 won, Yi I, South Korea',
+      tenthousandwon: '10000 won, Sejong the Great, South Korea',
+      fiftythousandwon: '50000 won, Sin Saimdang, South Korea',
+      onedollar: 'one dollar, George Washington, U.S.',
+      fivedollar: 'five dollar, Abraham Lincoln, U.S.',
+      tendollar: 'ten dollar, Alexander Hamilton, U.S.',
+      None: 'There is nothing.'
     };
 
     if (probability >= 75) {
