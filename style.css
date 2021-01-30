@@ -1,0 +1,32 @@
+.container {
+  width: 480px;
+  padding: 10px;
+  background-color: cornflowerblue;
+}
+
+.camera {
+  width: 480px;
+  height: 480px;
+  background-color: rgb(173, 208, 231);
+}
+
+.name {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.percent {
+  text-align: center;
+  font-size: 14px;
+}
+
+.description {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.icon .invisible {
+  display: none;
+}
