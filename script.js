@@ -52,9 +52,9 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      Cervusnipponhortulorum: 'deer',
-      Ursusthibetanusussuricus: 'bear',
-      Vulpesvulpespeculiosa: 'fox',
+      Cervusnipponhortulorum: 'deer, deer',
+      Ursusthibetanusussuricus: 'bear, bear',
+      Vulpesvulpespeculiosa: 'fox, fox',
     };
 
     if (probability >= 75) {
