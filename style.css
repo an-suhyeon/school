@@ -1,25 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
-  width: 480px;
+  width: 380px;
   padding: 10px;
-  background-color: cornflowerblue;
+  position: relative;
+  font-family: "Quantico", sans-serif;
+  background-color: #9ab4d4;
+  box-shadow: 0px 2px 2px #708098;
+  border-radius: 15px;
+}
+
+.icon {
+  position: absolute;
+  top: 30px;
+  right: 36px;
+  cursor: pointer;
+  background-color: #b9cde3;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon i {
+  font-size: 20px;
+  color: #9ab4d4;
 }
 
 .camera {
-  width: 480px;
-  height: 480px;
-  background-color: rgb(173, 208, 231);
+  width: 380px;
+  height: 380px;
+  background-color: #dce3ef;
+  border-radius: 15px;
+  box-shadow: 0px 3px 3px #708098;
 }
 
 .name {
   text-align: center;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
 }
 
 .percent {
   text-align: center;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .description {
