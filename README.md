@@ -1,1 +1,1 @@
-demo: https://mva-313.github.io/school/
+demo: https://an-suhyeon.github.io/school/
